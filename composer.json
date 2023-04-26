@@ -1,0 +1,19 @@
+{
+    "name": "gailole/my-talk",
+    "description": "say Hi",
+    "license": "MIT",
+    "bin": [
+    	"./sayHi"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gailole\\MyTalk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleg Gailun"
+        }
+    ],
+    "require": {}
+}
